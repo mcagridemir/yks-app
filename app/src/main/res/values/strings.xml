@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string name="app_name" translatable="false">YKSApp</string>
+
+ <string-array name="spinner_category">
+  <item>@string/History</item>
+  <item>@string/Georaphy</item>
+  <item>@string/Math</item>
+ </string-array>
+
+ <string-array name="spinner_difficulty">
+  <item>@string/Easy</item>
+  <item>@string/Medium</item>
+  <item>@string/Hard</item>
+ </string-array>
+
+ <string name="History">History</string>
+ <string name="Georaphy">Georaphy</string>
+ <string name="Math">Math</string>
+
+ <string name="Easy">Easy</string>
+ <string name="Medium">Medium</string>
+ <string name="Hard">Hard</string>
+
+ <string name="MainMenuButton">Main</string>
+ <string name="TestPageButton">Tests</string>
+ <string name="TopicPageButton">Topics</string>
+ <string name="CalculationPageButton">Calculation</string>
+ <string name="LanguageText">Language</string>
+ <string name="Language_Changed">Language was set as English</string>
+ <string name="UNDO_TEXT">Changing was removed</string>
+
+ <string name="lookAtTheTestsButton">Look at the tests</string>
+ <string name="emailEditView">Email</string>
+ <string name="passwordEditView">Password</string>
+ <string name="notRegisteredYetTextView">Not registered yet?</string>
+ <string name="enterButton">Enter</string>
+
+ <string name="trueCountTextView">True Count:</string>
+ <string name="falseCountTextView">FalseCount:</string>
+ <string name="netCountTextView">Net Count:</string>
+ <string name="questionCountTextView">Question: 1/x</string>
+ <string name="categoryTextView">Category:</string>
+ <string name="difficultTextView">Difficulty:</string>
+ <string name="countDownTextView">00:30</string>
+ <string name="confirmNextButton">Confirm</string>
+ <string name="lessonNameTextView">Lesson Name:</string>
+ <string name="scoreTextView">Score:</string>
+
+ <string name="passwordAgainEditText">Password Again</string>
+ <string name="signUpButton">Sign Up</string>
+
+ <string name="quizTextView">Quiz</string>
+ <string name="highScoreTextView">Score:</string>
+ <string name="startButton">Start the quiz</string>
+
+ <string name="turkishButton">Turkish</string>
+ <string name="mathButton">Math</string>
+ <string name="quizzesButton">Quizzes</string>
+
+ <string name="pleaseSelectAnAnswer">Please select an answer</string>
+ <string name="clickAgainToExit">Click again to exit</string>
+ <string name="settings">Settings</string>
+
+ <string name="Quiz1">Quiz1</string>
+ <string name="Quiz2">Quiz2</string>
+ <string name="Quiz3">Quiz3</string>
+ <string name="Quiz4">Quiz4</string>
+ <string name="Quiz5">Quiz5</string>
+ <string name="Quiz6">Quiz6</string>
+
+ <string name="Topic">Topic</string>
+
+</resources>

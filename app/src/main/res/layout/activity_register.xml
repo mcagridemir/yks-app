@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".HomepageActivity">
+
+<EditText
+    android:id="@+id/passwordRegisterEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginTop="59dp"
+    android:ems="10"
+    android:hint="@string/passwordEditView"
+    android:inputType="textPassword"
+    app:layout_constraintStart_toStartOf="@+id/emailRegisterEditText"
+    app:layout_constraintTop_toBottomOf="@+id/emailRegisterEditText" />
+
+<EditText
+    android:id="@+id/emailRegisterEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="68dp"
+    android:ems="10"
+    android:hint="@string/emailEditView"
+    android:inputType="textEmailAddress"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<EditText
+    android:id="@+id/passwordConfRegisterEditText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="2dp"
+    android:ems="10"
+    android:hint="@string/passwordAgainEditText"
+    android:inputType="textPassword"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="@+id/passwordRegisterEditText"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/registerButton"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="102dp"
+    android:layout_marginBottom="151dp"
+    android:onClick="registerOnClick"
+    android:text="@string/signUpButton"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
